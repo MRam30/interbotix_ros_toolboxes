@@ -366,6 +366,7 @@ def declare_interbotix_xsarm_robot_description_launch_arguments(
                 'actual',
                 'fake',
                 'gz_classic',
+                'ign_gz',
             ),
             default_value=hardware_type,
             description=(
@@ -464,6 +465,7 @@ def declare_interbotix_xslocobot_robot_description_launch_arguments(
                 'actual',
                 'fake',
                 'gz_classic',
+                'ign_gz',
             ),
             default_value=hardware_type,
             description=(
